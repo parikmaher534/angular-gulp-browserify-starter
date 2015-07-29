@@ -11,7 +11,7 @@ var gulp = require('gulp'),
     streamify = require('gulp-streamify'),
     uglify = require('gulp-uglify'),
     sourcemaps = require('gulp-sourcemaps'),
-    less = require('gulp-less'),
+    sass = require('gulp-sass'),
     prefix = require('gulp-autoprefixer'),
     minifyCSS = require('gulp-minify-css'),
     notify = require('gulp-notify'),
@@ -46,8 +46,8 @@ var filePath = {
         ]
     },
     styles: {
-        src: './app/app.less',
-        watch: ['./app/app.less', './app/**/*.less']
+        src: './app/app.sass',
+        watch: ['./app/app.sass', './app/**/*.sass']
     },
     assets: {
         images: {
@@ -232,7 +232,7 @@ gulp.task('bundle-prod', function () {
 gulp.task('styles-dev', function() {
     return gulp.src(filePath.styles.src)
     .pipe(sourcemaps.init())
-    .pipe(less())
+    .pipe(sass())
     .on('error', handleError)
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(filePath.build.dest))
@@ -245,7 +245,7 @@ gulp.task('styles-dev', function() {
 
 gulp.task('styles-prod', function() {
     return gulp.src(filePath.styles.src)
-    .pipe(less())
+    .pipe(sass())
     .on('error', handleError)
     .pipe(prefix('last 1 version', '> 1%', 'ie 8', 'ie 7', {
         map: true
