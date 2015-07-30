@@ -1,14 +1,14 @@
-# Slush Parikmaher [![Build Status](https://secure.travis-ci.org/Parikmaher/slush-parikmaher.png?branch=master)](https://travis-ci.org/Parikmaher/slush-parikmaher) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-parikmaher.png)](http://badges.enytc.com/for/npm/slush-parikmaher)
+# Slush Slush-angular-gulp-browserify-starter [![Build Status](https://secure.travis-ci.org/parikmaher534/slush-slush-angular-gulp-browserify-starter.png?branch=master)](https://travis-ci.org/parikmaher534/slush-slush-angular-gulp-browserify-starter) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-angular-gulp-browserify-starter.png)](http://badges.enytc.com/for/npm/slush-slush-angular-gulp-browserify-starter)
 
-> 
+> slush-angular-gulp-browserify-starter
 
 
 ## Getting Started
 
-Install `slush-parikmaher` globally:
+Install `slush-slush-angular-gulp-browserify-starter` globally:
 
 ```bash
-$ npm install -g slush-parikmaher
+$ npm install -g slush-slush-angular-gulp-browserify-starter
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-parikmaher
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-parikmaher
+$ mkdir my-slush-slush-angular-gulp-browserify-starter
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-parikmaher && slush parikmaher
+$ cd my-slush-slush-angular-gulp-browserify-starter && slush slush-angular-gulp-browserify-starter
 ```
 
 ## Getting To Know Slush
@@ -35,16 +35,16 @@ To find out more about Slush, check out the [documentation](https://github.com/s
 
 ## Contributing
 
-See the [CONTRIBUTING Guidelines](https://github.com/Parikmaher/slush-parikmaher/blob/master/CONTRIBUTING.md)
+See the [CONTRIBUTING Guidelines](https://github.com/parikmaher534/slush-slush-angular-gulp-browserify-starter/blob/master/CONTRIBUTING.md)
 
 ## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/Parikmaher/slush-parikmaher/issues).
+If you have any problem or suggestion please open an issue [here](https://github.com/parikmaher534/slush-slush-angular-gulp-browserify-starter/issues).
 
 ## License 
 
 The MIT License
 
-Copyright (c) 2015, 
+Copyright (c) 2015, Nick
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
