@@ -1,19 +1,19 @@
 {
-  "name": "AngularJS-Gulp-Browserify-Starter",
+  "name": "Slush-AngularJS-Gulp-Browserify-Starter",
   "version": "1.0.0",
-  "description": "Base AngularJS application with gulp and browserify",
+  "description": "Base Slush AngularJS application with gulp and browserify",
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goodbomb/angular-gulp-browserify-starter"
+    "url": "https://bitbucket.org/ncdesign/slush-nc-angular-gulp"
   },
-  "authors": "Ben Scott <bscott@tekalstudios.com>",
+  "authors": "Kolya P <kolya.p@speedandfunction.com>",
   "private": false,
   "devDependencies": {
     "angular-mocks": "~1.4.2"
   },
   "dependencies": {
-    "angular": "~1.4.2",
+    "angular": "1.2.28",
     "angular-bootstrap": "~0.12.1",
     "angular-ui-utils": "~0.2.3",
     "angular-ui-router": "~0.2.13",

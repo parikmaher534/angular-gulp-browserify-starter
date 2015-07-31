@@ -1,23 +1,16 @@
 {
-    "name": "slush-parikmaher",
+    "name": "slush-kolyap",
     "description": "",
     "version": "0.1.0",
-    "homepage": "https://github.com/Parikmaher/slush-parikmaher",
+    "homepage": "https://bitbucket.org/ncdesign/slush-nc-angular-gulp",
     "author": {
         "name": "",
         "email": ""
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/Parikmaher/slush-parikmaher.git"
+        "url": "https://kolya_p@bitbucket.org/ncdesign/slush-nc-angular-gulp.git"
     },
-    "bugs": {
-        "url": "https://github.com/Parikmaher/slush-parikmaher/issues"
-    },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/Parikmaher/slush-parikmaher/blob/master/LICENSE"
-    }],
     "main": "slushfile.js",
     "engines": {
         "node": ">= 0.10.26",

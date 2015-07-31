@@ -1,14 +1,14 @@
-# Slush Parikmaher [![Build Status](https://secure.travis-ci.org/Parikmaher/slush-parikmaher.png?branch=master)](https://travis-ci.org/Parikmaher/slush-parikmaher) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-parikmaher.png)](http://badges.enytc.com/for/npm/slush-parikmaher)
+# Slush kolyap [![Build Status](https://secure.travis-ci.org/Parikmaher/slush-parikmaher.png?branch=master)](https://travis-ci.org/kolyap/slush-kolyap) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-parikmaher.png)](http://badges.enytc.com/for/npm/slush-kolyap)
 
 > 
 
 
 ## Getting Started
 
-Install `slush-parikmaher` globally:
+Install `slush-kolyap` globally:
 
 ```bash
-$ npm install -g slush-parikmaher
+$ npm install -g slush-kolyap
 ```
 
 ### Usage
@@ -16,13 +16,13 @@ $ npm install -g slush-parikmaher
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-parikmaher
+$ mkdir my-slush-kolyap
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-parikmaher && slush parikmaher
+$ cd my-slush-kolyap && slush kolyap
 ```
 
 ## Getting To Know Slush
@@ -33,12 +33,6 @@ Slush does not contain anything "out of the box", except the ability to locate i
 
 To find out more about Slush, check out the [documentation](https://github.com/slushjs/slush).
 
-## Contributing
-
-See the [CONTRIBUTING Guidelines](https://github.com/Parikmaher/slush-parikmaher/blob/master/CONTRIBUTING.md)
-
-## Support
-If you have any problem or suggestion please open an issue [here](https://github.com/Parikmaher/slush-parikmaher/issues).
 
 ## License 
 
