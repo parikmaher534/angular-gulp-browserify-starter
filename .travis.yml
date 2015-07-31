@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+- '0.12'
+- '0.11'
+- '0.10'
+after_success:
+# Publish the coverage to coveralls.io
+  - npm run coveralls
